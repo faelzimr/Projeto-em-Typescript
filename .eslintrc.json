@@ -23,9 +23,18 @@
     "@typescript-eslint/no-use-before-define": [
       "error"
     ],
+    "no-useless-constructor": "off",
     "@typescript-eslint/no-unused-vars": [
       "error", {
         "argsIgnorePattern": "_"
+      }
+    ],
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        "selector": "interface",
+        "prefix": ["I"],
+        "format": ["PascalCase"]
       }
     ],
     "import/extensions": [
